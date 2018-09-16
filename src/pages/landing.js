@@ -34,9 +34,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Steel Bridge RIP</h3>
+                                <h3>Steel Bridge</h3>
                             </header>
-                            <p>This event is actually dead LUL.</p>
+                            <p>This event will not be hosted for the 2019 competition until further notice.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
