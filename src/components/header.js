@@ -13,6 +13,6 @@ const Header = (props) => (
 
 Header.propTypes = {
     onToggleMenu: PropTypes.func
-}
+};
 
-export default Header
+export default Header;
