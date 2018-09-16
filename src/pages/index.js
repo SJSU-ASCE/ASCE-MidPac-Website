@@ -75,11 +75,13 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>What is Mid-Pac?</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>San Jose State University is proud to host the 2019 American Society of Civil Engineers Mid-Pacific Conference! Every year, ASCE hosts a conference to bring together students from all throughout each region from all of the ASCE student
+						chapters.  The Mid-Pacific Conference includes chapters from Fresno, California to Reno, Nevada. This also includes chapters in Canada
+						and China.  This event allows future civil engineers to gain valuable hands-on experience by competing in various building and design events.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/landing" className="button next">Learn More</Link></li>
                             </ul>
                         </div>
                     </section>

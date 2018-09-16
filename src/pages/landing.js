@@ -36,7 +36,8 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Steel Bridge</h3>
                             </header>
-                            <p>This event will not be hosted for the 2019 competition until further notice.</p>
+                            <p>Students design, fabricate, erect, and test a steel bridge that meets specifications
+                                and optimizes performance and economy.<br></br>This event will not be hosted for the 2019 competition until further notice.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -50,9 +51,11 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Concrete Canoe</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Students design, construct, and race a canoe made out of concrete. Arguably the most competitve civil engineering competition
+                                in the world, schools fight to keep their national championship hopes from sinking.
+                            </p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -66,9 +69,11 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Water Treatment</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Students design a water filter to be construct on site, and test the efficiency of the assembled filter by treating contaminated water.
+                                In this competition, teams are scored based on a design paper, construction efficiency, water test results, and a presentation.
+                            </p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
