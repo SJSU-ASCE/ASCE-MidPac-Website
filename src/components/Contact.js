@@ -4,7 +4,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact" method="post" action="../success" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -43,7 +44,7 @@ const Contact = (props) => (
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
                         <span>1 Washington Square<br />
-                        San Jose, CA 95192<br />
+                        San Jose, California 95192<br />
                         United States of America</span>
                     </div>
                 </section>
