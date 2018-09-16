@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "ASCE-MidPac-Website",
+  "description": "Official website of ASCE Mid-Pacific Conference 2019",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "David Tran",
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/SJSU-ASCE/ASCE-MidPac-Website"
   }
 }
