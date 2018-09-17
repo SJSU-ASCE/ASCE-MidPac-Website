@@ -8,8 +8,8 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import pic12 from '../assets/images/pic12.jpg'
-import pic13 from '../assets/images/pic13.jpg'
 import pic14 from '../assets/images/pic14.png'
+import pic15 from '../assets/images/pic15.png'
 
 const Landing = (props) => (
     <Layout>
@@ -100,15 +100,14 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/404" className="image">
-                        <img src={pic13} alt="" />
+                        <img src={pic15} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Water Treatment</h3>
+                                <h3>Transportation Challenge</h3>
                             </header>
-                            <p>Students design a water filter to be construct on site, and test the efficiency of the assembled filter by treating contaminated water.
-                                In this competition, teams are scored based on a design paper, construction efficiency, water test results, and a presentation.
+                            <p>Student design and present solutions related to transportation and traffic that help improve mobility and safety for transportation systems and help build smarter and better communities.
                             </p>
                             {/*<ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
