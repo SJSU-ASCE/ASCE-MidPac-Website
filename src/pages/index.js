@@ -28,6 +28,7 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
+                {/*
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
@@ -72,6 +73,7 @@ class HomeIndex extends React.Component {
                             <Link to="/events" className="link primary"></Link>
                         </article>
                     </section>
+                    */}
                     <section id="two">
                         <div className="inner">
                             <header className="major">
@@ -86,6 +88,7 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>
                 </div>
+                
 
             </Layout>
         )
