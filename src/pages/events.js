@@ -122,9 +122,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Kiewit Construction Mystery Design Competition</h3>
+                                <h3>Mystery Design Competition</h3>
                             </header>
-                            <p>The details for this event will be posted. Stay tuned!
+                            <p>This is a special event hosted by Kiewet Construction. The details for this event will be posted. Stay tuned!
                             </p>
                             {/*<ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
