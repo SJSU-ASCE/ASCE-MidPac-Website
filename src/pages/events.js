@@ -38,7 +38,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Steel Bridge</h3>
+                                <h3>Sustainable Solution Design</h3>
                             </header>
                             <p>Students design, fabricate, erect, and test a steel bridge that meets specifications
                                 and optimizes performance and economy.<br></br>Note: This event will not be hosted for the 2019 competition until further notice.</p>
@@ -54,7 +54,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Concrete Canoe</h3>
                             </header>
-                            <p>Students design, construct, and race a canoe made out of concrete. Arguably the most competitve civil engineering competition
+                            <p>Students design, construct, and race a canoe made out of concrete. Arguably the most competitive civil engineering competition
                                 in the world, schools fight to keep their national championship hopes from sinking.
                             </p>
                             {/*<ul className="actions">
