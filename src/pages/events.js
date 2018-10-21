@@ -12,7 +12,7 @@ import pic14 from '../assets/images/pic14.png'
 import pic15 from '../assets/images/pic15.png'
 
 
-const Landing = (props) => (
+const Events = (props) => (
     <Layout>
         <Helmet>
             <title>ASCE MidPac Conference 2019</title>
@@ -139,4 +139,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default Events
