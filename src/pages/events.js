@@ -32,9 +32,9 @@ const Events = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="https://www.asce.org/student_conferences" className="image">
+                    <a href="https://www.asce.org/student_conferences" className="image">
                         <img src={pic08} alt="" />
-                    </Link>
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -45,9 +45,9 @@ const Events = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="https://www.asce.org/rules-and-regulations" className="image">
+                    <a href="https://www.asce.org/rules-and-regulations" className="image">
                         <img src={pic09} alt="" />
-                    </Link>
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
