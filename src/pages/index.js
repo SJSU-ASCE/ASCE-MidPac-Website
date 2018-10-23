@@ -87,6 +87,16 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
+                    <section id="two">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>What happened to the Steel Bridge Competition?</h2>
+                            </header>
+                            <p>ASCE and AISC are no longer partners in organizing the Steel Bridge Competition, as ASCE is no longer affiliated with this event. 
+                                Steel Bridge Competition will be hosted at Cal Poly SLO from April 4th-6th, 2019, but only by AISC. For any teams still interested in participating,
+                                please check out </p> <li><Link to="https://www.aisc.org/modernsteel/news/2018/july/important-changes-to-the-student-steel-bridge-competition/">ASCE</Link></li> <p> for more information.</p>
+                        </div>
+                    </section>
                 </div>
                 
 
