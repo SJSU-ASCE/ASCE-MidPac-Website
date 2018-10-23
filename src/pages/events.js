@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
+import pic08 from '../assets/images/pic08.png'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.jpg'
 import pic12 from '../assets/images/pic12.jpg'
@@ -32,21 +32,20 @@ const Events = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/404" className="image">
+                    <Link to="https://www.asce.org/student_conferences" className="image">
                         <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sustainable Solution Design</h3>
+                                <h3>Sustainable Solution Competition: Dog House</h3>
                             </header>
-                            <p>Students design, fabricate, erect, and test a steel bridge that meets specifications
-                                and optimizes performance and economy.<br></br>Note: This event will not be hosted for the 2019 competition until further notice.</p>
+                            <p>Students design and build a temporary shelter for a displaced dog during the aftermath of a disaster or emergency.</p>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/404" className="image">
+                    <Link to="https://www.asce.org/rules-and-regulations" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
