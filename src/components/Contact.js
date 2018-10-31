@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = (props) => (
     <section id="contact">
-        <div className="inner">
+        <div className="inner">{/*
             <section>
                 <form name="contact" method="POST" action="../success" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
                 <input type="hidden" name="bot-field" />
@@ -23,31 +23,31 @@ const Contact = (props) => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
-            </section>
-            <section className="split">
-                <section>
+            </section>*/}
+            <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a href="#">midpac@sjsuasce.org</a>
+                        <span className="icon alt fa-home"></span>
+                        <h3>Address</h3>
+                        <span>1 Washington Square<br/>
+                        San Jose, California 95192<br/>
+                        United States of America</span>
                     </div>
                 </section>
-                <section>
+            <section className="split">
+            <section>
+                <div className="contact-method">
+                    <span className="icon alt fa-envelope"></span>
+                    <h3>Email</h3>
+                    <a href="mailto:midpac@sjsuasce.org">midpac@sjsuasce.org</a>
+                </div>
+            </section>
+                {/*<section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
                         <span>(408) 466-0938</span>
                     </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1 Washington Square<br />
-                        San Jose, California 95192<br />
-                        United States of America</span>
-                    </div>
-                </section>
+                </section>*/}
             </section>
         </div>
     </section>

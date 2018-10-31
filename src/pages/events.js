@@ -8,8 +8,8 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.png'
 import pic10 from '../assets/images/pic10.jpg'
 import pic12 from '../assets/images/pic12.jpg'
-import pic14 from '../assets/images/pic14.png'
 import pic15 from '../assets/images/pic15.png'
+import pic16 from '../assets/images/pic16.jpg'
 
 
 const Events = (props) => (
@@ -117,14 +117,14 @@ const Events = (props) => (
                 </section>
                 <section>
                     <Link to="/404" className="image">
-                        <img src={pic14} alt="" />
+                        <img src={pic16} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>Mystery Design Competition</h3>
                             </header>
-                            <p>This is a special event hosted by Kiewet Construction. The details for this event will be posted. Stay tuned!
+                            <p>This is a special event hosted by Kiewit Construction. The details for this event will be posted. Stay tuned!
                             </p>
                             {/*<ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
