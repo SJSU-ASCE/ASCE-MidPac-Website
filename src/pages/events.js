@@ -74,7 +74,7 @@ const Events = (props) => (
                             <header className="major">
                                 <h3>Water Treatment</h3>
                             </header>
-                            <p>Students design a water filter to be construct on site, and test the efficiency of the assembled filter by treating contaminated water.
+                            <p>Students design a water filter to be constructed on site, and test the efficiency of the assembled filter by treating contaminated water.
                                 In this competition, teams are scored based on a design paper, construction efficiency, water test results, and a presentation.
                             </p>
                             <ul className="actions">
