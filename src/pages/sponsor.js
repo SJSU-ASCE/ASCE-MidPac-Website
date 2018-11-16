@@ -22,7 +22,7 @@ const Sponsor = (props) => (
                     <p>Being a sponsor for MidPac 2019 means your company will have a chance to show support to participants and students by providing financial support through your generous donation.</p>
                     <p>All companies who sponsor our event will have the opportunity to not only engage with students on the first day, but also advertise jobs and more!</p>
                     <p>Take a look at the sponsorship levels below. They will show you how you can get involved with the Mid-Pacific Conference and the benefits you will receive. Your sponsorship will be responsible for investing in the future generations of engineers.</p>
-                    <h2><a href="https://docs.google.com/document/d/1ITjvRbo5iax40Qp5paFHt-Il5Rl1fOTfXIwH39ugZf8/edit?usp=sharing">Your Contribution.</a></h2>
+                    <p className="link"><a href="https://docs.google.com/document/d/1ITjvRbo5iax40Qp5paFHt-Il5Rl1fOTfXIwH39ugZf8/edit?usp=sharing">Sponsorship PDF</a></p>
                     <p>For those who would like to donate to this community event, please click <a href="power.sjsu.edu/midpac2019">here.</a></p>
                 </div>
             </section>
