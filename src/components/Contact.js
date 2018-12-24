@@ -1,4 +1,5 @@
 import React from 'react'
+import kiewit from '../assets/images/kiewet-color.png'
 
 const Contact = (props) => (
     <section id="contact">
@@ -26,11 +27,9 @@ const Contact = (props) => (
             </section>*/}
             <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1 Washington Square<br/>
-                        San Jose, California 95192<br/>
-                        United States of America</span>
+                        <span className="icon alt fa-star"></span>
+                        <h3>Our Sponsors</h3>
+                        <gatsby-image src={kiewit} alt="../assets/images/kiewet-color.png" />
                     </div>
                 </section>
             <section className="split">
@@ -41,13 +40,15 @@ const Contact = (props) => (
                     <a href="mailto:midpac@sjsuasce.org">midpac@sjsuasce.org</a>
                 </div>
             </section>
-                {/*<section>
+                <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(408) 466-0938</span>
+                        <span className="icon alt fa-home"></span>
+                        <h3>Address</h3>
+                        <span>1 Washington Square<br/>
+                        San Jose, California 95192<br/>
+                        United States of America</span>
                     </div>
-                </section>*/}
+                </section>
             </section>
         </div>
     </section>
