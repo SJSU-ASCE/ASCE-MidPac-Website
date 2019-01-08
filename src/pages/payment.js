@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic13 from '../assets/images/pic13.jpg'
 
 const Payment = (props) => (
     <div>
@@ -18,7 +18,7 @@ const Payment = (props) => (
                     <header className="major">
                         <h1>Payment</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <span className="image"><img src={pic13} alt="" /></span>
                     <p>Pay by going to the link down below (credit card only).</p>
                     <br></br>
                     <a href="https://commerce.cashnet.com/ASCEsjsu">https://commerce.cashnet.com/ASCEsjsu</a>

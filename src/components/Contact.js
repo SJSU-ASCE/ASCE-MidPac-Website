@@ -26,20 +26,20 @@ const Contact = (props) => (
                 </form>
             </section>*/}
             <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-star"></span>
-                        <h3>Our Sponsors</h3>
-                        <gatsby-image src={kiewit} alt="../assets/images/kiewet-color.png" />
-                    </div>
-                </section>
-            <section className="split">
-            <section>
                 <div className="contact-method">
-                    <span className="icon alt fa-envelope"></span>
-                    <h3>Email</h3>
-                    <a href="mailto:midpac@sjsuasce.org">midpac@sjsuasce.org</a>
+                    <span className="icon alt fa-star"></span>
+                    <h3>Thanks to Our Sponsors</h3>
+                    <img className="sponsor-image"src={kiewit} alt="../assets/images/kiewet-color.png"></img>
                 </div>
             </section>
+            <section className="split">
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-envelope"></span>
+                        <h3>Email</h3>
+                        <a href="mailto:midpac@sjsuasce.org">midpac@sjsuasce.org</a>
+                    </div>
+                </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
@@ -47,6 +47,14 @@ const Contact = (props) => (
                         <span>1 Washington Square<br/>
                         San Jose, California 95192<br/>
                         United States of America</span>
+                    </div>
+                </section>
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-calendar"></span>
+                        <h3>Date</h3>
+                        <span>From: April 18th, 2019<br/>
+                        To: April 20th, 2019</span>
                     </div>
                 </section>
             </section>

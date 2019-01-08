@@ -82,6 +82,7 @@ class HomeIndex extends React.Component {
                             <p>San Jose State University is proud to host the 2019 American Society of Civil Engineers Mid-Pacific Conference! Every year, ASCE hosts a conference to bring together students from all throughout each region from all of the ASCE student
 						    chapters.  The Mid-Pacific Conference includes chapters from Fresno, California to Reno, Nevada. This also includes chapters in Canada
 						    and China.  This event allows future civil engineers to gain valuable hands-on experience by competing in various building and design events.</p>
+                            <p>The event will be hosted from April 18th to April 20th, 2019.</p>
                             <ul className="actions">
                                 <li><Link to="/events" className="button next">Learn More</Link></li>
                             </ul>
