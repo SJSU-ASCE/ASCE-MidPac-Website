@@ -100,8 +100,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Where are the MidPac mailers?</h2>
                             </header>
-                            <p>Mailer 1 can be found <a href = "https://drive.google.com/open?id=1digfp5odKV_5FwgAZ39E28Q3Bw0hUnZz">here.</a></p> 
-                            <p>Mailer 2 can be found <a href = "https://drive.google.com/open?id=1trhfuxvn2RDO6VYELzBxuN7E9JHL2joE">here.</a></p> 
+                            <p>Mailer 1 can be found <a href = "https://drive.google.com/open?id=1digfp5odKV_5FwgAZ39E28Q3Bw0hUnZz">here</a> and Mailer 2 can be found <a href = "https://drive.google.com/open?id=1trhfuxvn2RDO6VYELzBxuN7E9JHL2joE">here.</a></p> 
                         </div>
                     </section>
                 </div>
