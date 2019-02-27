@@ -1,5 +1,11 @@
 import React from 'react'
 import kiewit from '../assets/images/kiewet-color.png'
+import cws from '../assets/images/cws.jpg'
+import nv5 from '../assets/images/nv5.png'
+import swenson from '../assets/images/swenson.jpg'
+import cwea from '../assets/images/cwea.png'
+import csg from '../assets/images/csg.png'
+
 
 const Contact = (props) => (
     <section id="contact">
@@ -27,9 +33,19 @@ const Contact = (props) => (
             </section>*/}
             <section>
                 <div className="contact-method">
-                    <span className="icon alt fa-star"></span>
-                    <h3>Thanks to Our Sponsors</h3>
-                    <img className="sponsor-image"src={kiewit} alt="../assets/images/kiewet-color.png"></img>
+                    <div className="sponsor-background">
+                        <span className="icon alt fa-star"></span>
+                        <h3>Thanks to Our Sponsors</h3>
+                        <h4>Gold</h4>
+                            <img className="sponsor-image"src={kiewit} alt="../assets/images/kiewet-color.png"></img>
+                            <img className="sponsor-image"src={cws} alt="../assets/images/cws.jpg"></img>
+                            <img className="sponsor-image-transparent"src={nv5} alt="../assets/images/nv5.png"></img>
+                        <h4>Silver</h4>
+                            <img className="sponsor-image"src={swenson} alt="../assets/images/swenson.jpg"></img>
+                        <h4>Bronze</h4>
+                            <img className="sponsor-image"src={cwea} alt="../assets/images/cwea.png"></img>
+                            <img className="sponsor-image-transparent"src={csg} alt="../assets/images/csg.png"></img>
+                    </div>
                 </div>
             </section>
             <section className="split">

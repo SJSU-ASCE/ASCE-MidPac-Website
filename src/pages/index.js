@@ -87,7 +87,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/events" className="button next">Learn More</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    
                         <div className="inner">
                             <header className="major">
                                 <h2>What happened to the Steel Bridge Competition?</h2>
@@ -96,8 +96,16 @@ class HomeIndex extends React.Component {
                                 Steel Bridge Competition will be hosted at Cal Poly SLO from April 4th-6th, 2019, but only by AISC. For any teams still interested in participating,
                                 please check out <a href = "https://www.aisc.org/modernsteel/news/2018/july/important-changes-to-the-student-steel-bridge-competition/">AISC.</a></p> 
                         </div>
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Where are the MidPac mailers?</h2>
+                            </header>
+                            <p>Mailer 1 can be found <a href = "https://drive.google.com/open?id=1digfp5odKV_5FwgAZ39E28Q3Bw0hUnZz">here.</a></p> 
+                            <p>Mailer 2 can be found <a href = "https://drive.google.com/open?id=1trhfuxvn2RDO6VYELzBxuN7E9JHL2joE">here.</a></p> 
+                        </div>
+                    </section>
                 </div>
-                
+               
 
             </Layout>
         )

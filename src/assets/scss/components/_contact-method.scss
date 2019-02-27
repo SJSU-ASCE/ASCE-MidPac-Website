@@ -11,17 +11,32 @@
 			position: absolute;
 			top: 0;
 		}
-
+		
 		.sponsor-image {
 			position: relative;
   			left: 0;
   			top: 0;
- 			width: 50%;
-  			height: auto;
+ 			width: 30%;
+			height: auto;
+			padding-right: 1em;	
+		}
+
+		.sponsor-image-transparent {
+			background-color: _palette(bg-sponsor);
+			position: relative;
+  			left: 0;
+  			top: 0;
+ 			width: 30%;
+			height: auto;
+			padding-right: 1em;	
 		}
 
 		h3 {
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+
+		h4 {
+			text-decoration: underline;
 		}
 
 	}
