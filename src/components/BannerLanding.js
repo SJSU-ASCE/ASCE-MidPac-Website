@@ -7,7 +7,7 @@ const BannerLanding = (props) => (
                 <h1>Events</h1>
             </header>
             <div className="content">
-                <p>Here are the events for this year's ASCE Mid-Pacific Conference.</p>
+                <p>Here are the results for all of the competitions for this year's ASCE Mid-Pacific Conference.</p>
             </div>
         </div>
     </section>

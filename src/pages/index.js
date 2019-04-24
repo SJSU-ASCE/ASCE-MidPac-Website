@@ -77,30 +77,15 @@ class HomeIndex extends React.Component {
                     <section id="two" className="spotlights">
                         <div className="inner">
                             <header className="major">
-                                <h2>What is Mid-Pac?</h2>
+                                <h2>Results</h2>
                             </header>
-                            <p>San Jose State University is proud to host the 2019 American Society of Civil Engineers Mid-Pacific Conference! Every year, ASCE hosts a conference to bring together students from all throughout each region from all of the ASCE student
-						    chapters.  The Mid-Pacific Conference includes chapters from Fresno, California to Reno, Nevada. This also includes chapters in Canada
-						    and China.  This event allows future civil engineers to gain valuable hands-on experience by competing in various building and design events.</p>
-                            <p>The event will be hosted from April 18th to April 20th, 2019.</p>
+                            <p>The members of the ASCE San Jose student chapter would like to express their gratitude and thanks to all students, faculty, engineering members, 
+                                and supporting staff who have committed to making this event memorable for everyone involved.</p>
+                                <br></br>
+                            <p>Click the link below to see the results of the competition.</p>
                             <ul className="actions">
-                                <li><Link to="/events" className="button next">Learn More</Link></li>
+                                <li><Link to="/results" className="button next">Find Out Here</Link></li>
                             </ul>
-                        </div>
-                    
-                        <div className="inner">
-                            <header className="major">
-                                <h2>What happened to the Steel Bridge Competition?</h2>
-                            </header>
-                            <p>ASCE and AISC are no longer partners in organizing the Steel Bridge Competition, as ASCE is no longer affiliated with this event. 
-                                Steel Bridge Competition will be hosted at Cal Poly SLO from April 4th-6th, 2019, but only by AISC. For any teams still interested in participating,
-                                please check out <a href = "https://www.aisc.org/modernsteel/news/2018/july/important-changes-to-the-student-steel-bridge-competition/">AISC.</a></p> 
-                        </div>
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Where are the MidPac mailers?</h2>
-                            </header>
-                            <p>Mailer 1 can be found <a href = "https://drive.google.com/open?id=1digfp5odKV_5FwgAZ39E28Q3Bw0hUnZz">here</a> and Mailer 2 can be found <a href = "https://drive.google.com/open?id=1trhfuxvn2RDO6VYELzBxuN7E9JHL2joE">here.</a></p> 
                         </div>
                     </section>
                 </div>
